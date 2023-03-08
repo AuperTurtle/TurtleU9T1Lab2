@@ -1,2 +1,17 @@
-package PACKAGE_NAME;public class Computer {
+public class Computer {
+    private int screenSize;
+    private int memory;
+
+    public Computer(int screenSize, int memory) {
+        this.screenSize = screenSize;
+        this.memory = memory;
+    }
+
+    public int getScreenSize() {
+        return screenSize;
+    }
+
+    public int getMemory() {
+        return memory;
+    }
 }
